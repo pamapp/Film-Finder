@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9145D28F248929C4006D972A /* film.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9145D28D248929C4006D972A /* film.cpp */; };
 		9196B45D2486DCA7004DAC89 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9196B45C2486DCA7004DAC89 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9145D28D248929C4006D972A /* film.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = film.cpp; sourceTree = "<group>"; };
+		9145D28E248929C4006D972A /* film.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = film.hpp; sourceTree = "<group>"; };
+		9145D29024892A07006D972A /* ratingFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ratingFile.txt; sourceTree = "<group>"; };
+		9145D29124892A5F006D972A /* nameFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = nameFile.txt; sourceTree = "<group>"; };
+		9145D29224892ABA006D972A /* fileGenre.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fileGenre.txt; sourceTree = "<group>"; };
 		9196B4592486DCA7004DAC89 /* filmRandom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = filmRandom; sourceTree = BUILT_PRODUCTS_DIR; };
 		9196B45C2486DCA7004DAC89 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				9196B45C2486DCA7004DAC89 /* main.cpp */,
+				9145D28D248929C4006D972A /* film.cpp */,
+				9145D28E248929C4006D972A /* film.hpp */,
+				9145D29024892A07006D972A /* ratingFile.txt */,
+				9145D29124892A5F006D972A /* nameFile.txt */,
+				9145D29224892ABA006D972A /* fileGenre.txt */,
 			);
 			path = filmRandom;
 			sourceTree = "<group>";
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9196B45D2486DCA7004DAC89 /* main.cpp in Sources */,
+				9145D28F248929C4006D972A /* film.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
